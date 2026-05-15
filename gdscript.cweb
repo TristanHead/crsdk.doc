@@ -1,0 +1,32 @@
+[cweb][Title]CRDSK-GDScript[/Title]
+[center][CWeb Godot Documentation]
+[i]THIS IS NOT OFFICIAL![/i]
+[hr]
+[url=https://TristanHead.github.io/crsdk.doc/search.cweb]Search...[/url]
+[i][b][shake]Caution![/shake][/b][/i]
+[i]This is documentation for Godot 2.1, which is no longer supported or maintained by Godot. This documentation is also unofficial. Please refer to [/i][code]https://docs.godotengine.org/en/latest/#.html[/code][i] in a standard HTML browser. Thank you for your time, and thank you for using CWeb.[/i]
+[hr][/center]
+[b]Introduction[/b]
+  [i]GDScript[/i] is a high level programming language used to make content in Godot. It uses dynamic typing and Python-like syntax where indentation is used instead of braces. It's made to work closely with Godot, which makes it easy and flexible.
+[b]History[/b]
+  Godot was originally made to allow for a lot of programming languages (it still can today!), but really only [i]GDScript[/i] is used today. There's a super interesting reason behind this, though!
+  At first, Godot used Lua. Lua was fast, but linking it to an OOP based system was hard, slow, and took more code than necessary. Godot then experimented with Python, but that was also not an amazing solution.
+  Then, Godot used Squirrel, but that was dropped too. By then, the develbpers realized it would be better to make a custom, entirely new language for Godot.
+  That was because:[ul]
+    Godot attaches scripts directly to nodes, which most languages aren't designed for.
+    It relies a lot on 2D and 3D math types that other languages don't support well.
+    It uses multithreading for loading data, which most languages don't handle great.
+    It already has a memory management system, but other languages also do, which leads to memory waste and bugs.
+    Using external languages is hard, messy, and not fun to maintain.
+  [/ul]Because of these reasons, GDScript was created. Shockingly, both the GDScript interpreter and language were smaller than the binding code for Lua or Squirrel, while having the same functionality. Over time, having GDScript proved to be a huge advantage.
+[b]Tokenry[/b][ul]
+  [code]if[/code]            - if/elif/else statements.
+  [code]elif[/code]          - if/elif/else statements.
+  [code]else[/code]          - if/elif/else statements.
+  [code]for[/code]           - for statements.
+  [code]do[/code]            - reserved, but does not do anything.
+  [code]while[/code]         - while statements.
+  [code]switch[/code]        - reserved, but does not do anything.
+  [code]case[/code]          - reserved, but does not do anything.
+  [code]break[/code]         - exit the current for or while loop.
+  [code]continue[/code]      - skip to next iteration of for or while loop.
