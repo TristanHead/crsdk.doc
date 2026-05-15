@@ -30,3 +30,18 @@
   [code]case[/code]          - reserved, but does not do anything.
   [code]break[/code]         - exit the current for or while loop.
   [code]continue[/code]      - skip to next iteration of for or while loop.
+  [code]pass[/code]          - basically just placeholder code.
+  [code]return[/code]        - return a value, ends the function.
+  [code]class[/code]         - defines a class.
+  [code]extends[/code]       - what class to extend or if variable extends class.
+  [code]tool[/code]          - class will run in editor.
+  [code]signal[/code]        - define a signal.
+  [code]func[/code]          - define a function.
+  [code]static[/code]        - defines a static function or variable.
+  [code]const[/code]         - immutable variable declaration.
+  [code]enum[/code]          - enum declaration.
+  [code]var[/code]           - mutable variable declaration.
+  [code]onready[/code]       - variable only made after scenetree loaded.
+  [code]export[/code]        - variable modifiable by editor.
+  [code]setget[/code]        - setter and getters for variable.
+  [code]breakpoint[/code]    - game will immediately quit at this line.
